@@ -30,7 +30,10 @@
     },
     "output": {
         "blocklist": [
-            "VLC media player (LibVLC 3.0.11.1)"
+            "VLC media player (LibVLC 3.0.11.1)",
+            "rpcs3",
+            "OBS-Monitor",
+            "steam"
         ],
         "plugins_order": [
             "limiter",
@@ -56,7 +59,7 @@
             "rnnoise"
         ],
         "bass_enhancer": {
-            "state": "true",
+            "state": "false",
             "input-gain": "0",
             "output-gain": "0",
             "amount": "-3",
@@ -117,7 +120,7 @@
         "equalizer": {
             "state": "true",
             "mode": "FIR",
-            "num-bands": "19",
+            "num-bands": "22",
             "input-gain": "-5.5",
             "output-gain": "0",
             "split-channels": "false",
@@ -128,7 +131,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "5.658682634730539",
+                    "gain": "3.3624454148471585",
                     "frequency": "29.952623149688797",
                     "q": "1.5047602375372451"
                 },
@@ -138,7 +141,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "3.1437125748502979",
+                    "gain": "3.0567685589519655",
                     "frequency": "59.763340205038524",
                     "q": "1.5047602375372453"
                 },
@@ -148,7 +151,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "1.2330623306233122",
+                    "gain": "1.8340611353711864",
                     "frequency": "119.24354052777788",
                     "q": "1.5047602375372451"
                 },
@@ -158,7 +161,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "2.9403794037940401",
+                    "gain": "2.2925764192139724",
                     "frequency": "237.92214271853953",
                     "q": "1.5047602375372451"
                 },
@@ -188,7 +191,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "0",
+                    "gain": "1.9868995633187794",
                     "frequency": "1889.8827562743609",
                     "q": "1.5047602375372449"
                 },
@@ -208,7 +211,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "0.68093385214007185",
+                    "gain": "0.30567685589520011",
                     "frequency": "7523.7587677823067",
                     "q": "1.5047602375372453"
                 },
@@ -228,7 +231,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "0.50872093023255616",
+                    "gain": "-0.45851528384279305",
                     "frequency": "5000",
                     "q": "1.5"
                 },
@@ -248,7 +251,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "2.5875486381322972",
+                    "gain": "2.1789883268482484",
                     "frequency": "18000",
                     "q": "1.5"
                 },
@@ -258,7 +261,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "-1.6279069767441854",
+                    "gain": "-1.2227074235807862",
                     "frequency": "2300",
                     "q": "1.5"
                 },
@@ -278,7 +281,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "2.0348837209302388",
+                    "gain": "2.192575406032482",
                     "frequency": "12000",
                     "q": "1.5"
                 },
@@ -288,7 +291,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "-1.220930232558139",
+                    "gain": "-0.30567685589520011",
                     "frequency": "3800",
                     "q": "1.5"
                 },
@@ -298,7 +301,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "0.47297297297297547",
+                    "gain": "1.2227074235807862",
                     "frequency": "300",
                     "q": "4.3600000000000003"
                 },
@@ -308,9 +311,39 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "-0.47297297297297547",
+                    "gain": "-0.30567685589520011",
                     "frequency": "6000",
                     "q": "4.3600000000000003"
+                },
+                "band19": {
+                    "type": "Bell",
+                    "mode": "RLC (BT)",
+                    "slope": "x1",
+                    "solo": "false",
+                    "mute": "false",
+                    "gain": "2.9039301310043584",
+                    "frequency": "20",
+                    "q": "1.5"
+                },
+                "band20": {
+                    "type": "Bell",
+                    "mode": "RLC (BT)",
+                    "slope": "x1",
+                    "solo": "false",
+                    "mute": "false",
+                    "gain": "0.91703056768558611",
+                    "frequency": "9000",
+                    "q": "1.5"
+                },
+                "band21": {
+                    "type": "Bell",
+                    "mode": "RLC (BT)",
+                    "slope": "x1",
+                    "solo": "false",
+                    "mute": "false",
+                    "gain": "0.89327146171693528",
+                    "frequency": "80",
+                    "q": "1.5"
                 }
             },
             "right": {
@@ -320,7 +353,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "5.658682634730539",
+                    "gain": "3.3624454148471585",
                     "frequency": "29.952623149688797",
                     "q": "1.5047602375372451"
                 },
@@ -330,7 +363,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "3.1437125748502979",
+                    "gain": "3.0567685589519655",
                     "frequency": "59.763340205038524",
                     "q": "1.5047602375372453"
                 },
@@ -340,7 +373,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "1.2330623306233122",
+                    "gain": "1.8340611353711864",
                     "frequency": "119.24354052777788",
                     "q": "1.5047602375372451"
                 },
@@ -350,7 +383,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "2.9403794037940401",
+                    "gain": "2.2925764192139724",
                     "frequency": "237.92214271853953",
                     "q": "1.5047602375372451"
                 },
@@ -380,7 +413,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "0",
+                    "gain": "1.9868995633187794",
                     "frequency": "1889.8827562743609",
                     "q": "1.5047602375372449"
                 },
@@ -400,7 +433,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "0.68093385214007185",
+                    "gain": "0.30567685589520011",
                     "frequency": "7523.7587677823067",
                     "q": "1.5047602375372453"
                 },
@@ -420,7 +453,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "0.50872093023255616",
+                    "gain": "-0.45851528384279305",
                     "frequency": "5000",
                     "q": "1.5"
                 },
@@ -440,7 +473,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "2.5875486381322972",
+                    "gain": "2.1789883268482484",
                     "frequency": "18000",
                     "q": "1.5"
                 },
@@ -450,7 +483,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "-1.6279069767441854",
+                    "gain": "-1.2227074235807862",
                     "frequency": "2300",
                     "q": "1.5"
                 },
@@ -470,7 +503,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "2.0348837209302388",
+                    "gain": "2.192575406032482",
                     "frequency": "12000",
                     "q": "1.5"
                 },
@@ -480,7 +513,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "-1.220930232558139",
+                    "gain": "-0.30567685589520011",
                     "frequency": "3800",
                     "q": "1.5"
                 },
@@ -490,7 +523,7 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "0.47297297297297547",
+                    "gain": "1.2227074235807862",
                     "frequency": "300",
                     "q": "4.3600000000000003"
                 },
@@ -500,9 +533,39 @@
                     "slope": "x1",
                     "solo": "false",
                     "mute": "false",
-                    "gain": "-0.47297297297297547",
+                    "gain": "-0.30567685589520011",
                     "frequency": "6000",
                     "q": "4.3600000000000003"
+                },
+                "band19": {
+                    "type": "Bell",
+                    "mode": "RLC (BT)",
+                    "slope": "x1",
+                    "solo": "false",
+                    "mute": "false",
+                    "gain": "2.9039301310043584",
+                    "frequency": "20",
+                    "q": "1.5"
+                },
+                "band20": {
+                    "type": "Bell",
+                    "mode": "RLC (BT)",
+                    "slope": "x1",
+                    "solo": "false",
+                    "mute": "false",
+                    "gain": "0.91703056768558611",
+                    "frequency": "9000",
+                    "q": "1.5"
+                },
+                "band21": {
+                    "type": "Bell",
+                    "mode": "RLC (BT)",
+                    "slope": "x1",
+                    "solo": "false",
+                    "mute": "false",
+                    "gain": "0.89327146171693528",
+                    "frequency": "80",
+                    "q": "1.5"
                 }
             }
         },
@@ -701,20 +764,20 @@
             }
         },
         "stereo_tools": {
-            "state": "false",
+            "state": "true",
             "input-gain": "0",
-            "output-gain": "-5",
+            "output-gain": "0",
             "balance-in": "0",
             "balance-out": "0",
-            "softclip": "true",
+            "softclip": "false",
             "mutel": "false",
             "muter": "false",
             "phasel": "false",
             "phaser": "false",
             "mode": "LR > LR (Stereo Default)",
-            "side-level": "2.5",
+            "side-level": "1.1000000000000001",
             "side-balance": "0",
-            "middle-level": "1.5",
+            "middle-level": "0.5",
             "middle-panorama": "0",
             "stereo-base": "0",
             "delay": "0",
