@@ -1,0 +1,303 @@
+{
+    "output": {
+        "blocklist": [],
+        "equalizer#0": {
+            "balance": 0.0,
+            "bypass": false,
+            "input-gain": -4.5,
+            "left": {
+                "band0": {
+                    "frequency": 54.0,
+                    "gain": 1.86,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 1.4500000476837158,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band1": {
+                    "frequency": 105.0,
+                    "gain": 3.68,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 0.699999988079071,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band10": {
+                    "frequency": 12000.0,
+                    "gain": 0.86,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 0.4,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band11": {
+                    "frequency": 15000.0,
+                    "gain": 2.03,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 0.3,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band12": {
+                    "frequency": 8000.0,
+                    "gain": 1.24,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 0.6,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band13": {
+                    "frequency": 6000.0,
+                    "gain": 1.86,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 0.8,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Lo-shelf"
+                },
+                "band2": {
+                    "frequency": 304.0,
+                    "gain": 3.05,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 1.2799999713897705,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band3": {
+                    "frequency": 2425.0,
+                    "gain": 1.2999999523162842,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 2.190000057220459,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band4": {
+                    "frequency": 3456.0,
+                    "gain": -3.0,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 3.059999942779541,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band5": {
+                    "frequency": 4128.0,
+                    "gain": -0.6000000238418579,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 1.7200000286102295,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band6": {
+                    "frequency": 5652.0,
+                    "gain": 2.21,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 2.4200000762939453,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band7": {
+                    "frequency": 6901.0,
+                    "gain": 1.2999999523162842,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 3.140000104904175,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band8": {
+                    "frequency": 9532.0,
+                    "gain": 2.0,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 2.740000009536743,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band9": {
+                    "frequency": 10000.0,
+                    "gain": 2.49,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 0.55,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                }
+            },
+            "mode": "IIR",
+            "num-bands": 14,
+            "output-gain": 0.0,
+            "pitch-left": 0.0,
+            "pitch-right": 0.0,
+            "right": {
+                "band0": {
+                    "frequency": 54.0,
+                    "gain": 1.86,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 1.4500000476837158,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band1": {
+                    "frequency": 105.0,
+                    "gain": 3.68,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 0.699999988079071,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band10": {
+                    "frequency": 12000.0,
+                    "gain": 0.86,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 0.4,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band11": {
+                    "frequency": 15000.0,
+                    "gain": 2.03,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 0.3,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band12": {
+                    "frequency": 8000.0,
+                    "gain": 1.24,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 0.6,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band13": {
+                    "frequency": 6000.0,
+                    "gain": 1.86,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 0.8,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Lo-shelf"
+                },
+                "band2": {
+                    "frequency": 304.0,
+                    "gain": 3.05,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 1.2799999713897705,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band3": {
+                    "frequency": 2425.0,
+                    "gain": 1.2999999523162842,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 2.190000057220459,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band4": {
+                    "frequency": 3456.0,
+                    "gain": -3.0,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 3.059999942779541,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band5": {
+                    "frequency": 4128.0,
+                    "gain": -0.6000000238418579,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 1.7200000286102295,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band6": {
+                    "frequency": 5652.0,
+                    "gain": 2.21,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 2.4200000762939453,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band7": {
+                    "frequency": 6901.0,
+                    "gain": 1.2999999523162842,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 3.140000104904175,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band8": {
+                    "frequency": 9532.0,
+                    "gain": 2.0,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 2.740000009536743,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band9": {
+                    "frequency": 10000.0,
+                    "gain": 2.49,
+                    "mode": "APO (DR)",
+                    "mute": false,
+                    "q": 0.55,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                }
+            },
+            "split-channels": false
+        },
+        "plugins_order": [
+            "equalizer#0"
+        ]
+    }
+}
